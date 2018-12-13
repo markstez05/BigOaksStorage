@@ -1,0 +1,163 @@
+.pricing-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 50px;
+    z-index: 1;
+}
+.unit-size{
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    padding: 3px;
+    border: 2px solid rgb(221, 221, 221);
+    transform: translate(0, -50%)
+}
+.price-card-div{
+    margin: auto;
+    margin-top: 100px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.price-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    border: 1px solid rgba(235, 235, 235, 0.699);
+    border-bottom: 5px solid rgba(212, 212, 212, 0.301);
+}
+.price-card:hover .unit-size{
+    transition: all .3s ease 0s;
+    border: 2px solid #BA433D;
+}.price-card1:hover .unit-size{
+    transition: all .3s ease 0s;
+    border: 2px solid #BA433D;
+}.price-card2:hover .unit-size{
+    transition: all .3s ease 0s;
+    border: 2px solid #BA433D;
+}.price-card3:hover .unit-size{
+    transition: all .3s ease 0s;
+    border: 2px solid #BA433D;
+}.price-card4:hover .unit-size{
+    transition: all .3s ease 0s;
+    border: 2px solid #BA433D;
+}
+.price-card:hover{
+    /* transform: translate(0, -1%); */
+    transition: all ease-in-out .3s;
+    border-bottom: 5px solid rgba(186, 67, 61, 0.699);
+}
+.price-card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    border: 1px solid rgba(235, 235, 235, 0.699);
+    border-bottom: 5px solid rgba(212, 212, 212, 0.301);
+}
+.price-card1:hover{
+    /* transform: translate(0, -1%); */
+    transition: all ease-in-out .4s;
+    border-bottom: 5px solid rgba(186, 67, 61, 0.699);
+}
+.price-card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 280px;
+    height: 300px;
+    border: 1px solid rgba(235, 235, 235, 0.699);
+    border-bottom: 5px solid rgba(212, 212, 212, 0.301);
+}
+.price-card2:hover{
+    /* transform: translate(0, -1%); */
+    transition: all ease-in-out .4s;
+    border-bottom: 5px solid rgba(186, 67, 61, 0.699);
+}
+.price-card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 280px;
+    height: 320px;
+    border: 1px solid rgba(235, 235, 235, 0.699);
+    border-bottom: 5px solid rgba(212, 212, 212, 0.301);
+}
+.price-card3:hover{
+    /* transform: translate(0, -1%); */
+    transition: all ease-in-out .4s;
+    border-bottom: 5px solid rgba(186, 67, 61, 0.699);
+}
+.price-card4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 280px;
+    border: 1px solid rgba(235, 235, 235, 0.699);
+    border-bottom: 5px solid rgba(212, 212, 212, 0.301);
+}
+.price-card4:hover{
+    /* transform: translate(0, -1%); */
+    transition: all ease-in-out .4s;
+    border-bottom: 5px solid rgba(186, 67, 61, 0.699);
+}
+strong{
+    font-weight: normal;
+    font-size: 1.1rem;
+    margin-top: -40px;
+    color: #BA433D;
+}
+.cost-title p{
+    font-weight: bold;
+    font-style: italic;
+}
+.cost-value{
+    color:gray;
+}
+.price-list{
+    width: 90%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.price-button{
+    height: 50px;
+    width: 160px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border:none;
+    background-color: #BA433D;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.price-button:hover{
+    cursor: pointer;
+    background-color: rgb(241, 85, 77);
+}
+.landing-button1{
+    margin:auto;
+    margin-top: 50px;
+    height: 60px;
+    width: 200px;
+    border-radius: 3px;
+    border:none;
+    background-color: #BA433D;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.landing-button1:hover{
+    cursor: pointer;
+    background-color: rgb(163, 59, 53);
+}
