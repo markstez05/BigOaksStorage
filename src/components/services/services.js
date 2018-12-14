@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FaUserPlus, FaMoneyBill, FaUserSecret } from "react-icons/fa";
-import StorageContainer from "../images/Storage.jpg"
+import StorageContainer from "../images/oaks.jpg"
 import RV from "../images/RV Storage.png";
 import Boat from "../images/Boat Storage.png";
 import Commercial from "../images/Commercial Storage.png";
@@ -22,28 +22,36 @@ render () {
         <FaUserPlus className="card-icons" />
         <h3>Convenience</h3>
         <div className="card-list">
-            <p>Easy & Open Access  </p>
-            <p>Large Units with Insulated Roofs  </p>
-            <p>Full Frontage Road Access with Wide Entry Gates </p>
-        
+            <li>Climate Control</li>
+            <p></p>
+            <li>Full Frontage Road Wide Entry Gates </li>
+            <p></p>
+            <li>Convenient Pick-Up & Drop-Off</li>
+            <p></p>
             </div>
         </div>
         <div className="card">
         <FaMoneyBill className="card-icons" />
         <h3>Competitive Rates</h3>
         <div className="card-list">
-            <p>Best Competitive Rates in NWA  </p>
-            <p>Golden Rule Customer Service </p>
-            <p>Large Oversized Units with Insulated Roofs</p>
+            <li>Best Competitive Rates in NWA  </li>
+            <p></p>
+            <li>"Golden Rule" Customer Service </li>
+            <p></p>
+            <li>New Modern Facilities</li>
+            <p></p>
             </div>
         </div>
         <div className="card">
         <FaUserSecret className="card-icons" />
         <h3>Secure</h3>
         <div className="card-list">
-            <p>Individual Access Codes</p>
-            <p>Gated & Surveillance Cameras</p>
-            <p>Full Frontage Road Access with Wide Entry Gates</p>
+            <li>Individual Access Codes</li>
+            <p></p>
+            <li>Gated & Surveillance Cameras</li>
+            <p></p>
+            <li>Large Units with Insulated Roofs</li>
+            <p></p>
             </div>
         </div>
         </div>

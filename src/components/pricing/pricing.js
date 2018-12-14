@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import "./pricing.css"
 import UnitSize from "../images/UnitSize.png";
+import UnitSize1 from "../images/UnitSize1.png";
+import UnitSize2 from "../images/UnitSize2.png";
+import UnitSize3 from "../images/UnitSize3.png";
 class Pricing extends Component {
 
 
@@ -29,7 +32,7 @@ render () {
         <button className="price-button">RESERVE TODAY</button>
         </div>
         <div className="price-card1">
-        <img src={ UnitSize } alt="Storage Unit Size" className="unit-size" />
+        <img src={ UnitSize1 } alt="Storage Unit Size" className="unit-size" />
         <strong>$60</strong>
         <div className="price-list">
         <div className="cost-title">
@@ -44,7 +47,7 @@ render () {
         <button className="price-button">RESERVE TODAY</button>
         </div>
         <div className="price-card2">
-        <img src={ UnitSize } alt="Storage Unit Size" className="unit-size" />
+        <img src={ UnitSize2 } alt="Storage Unit Size" className="unit-size" />
         <strong>$75</strong>
         <div className="price-list">
         <div className="cost-title">
@@ -59,7 +62,7 @@ render () {
         <button className="price-button">RESERVE TODAY</button>
         </div>
         <div className="price-card3">
-        <img src={ UnitSize } alt="Storage Unit Size" className="unit-size" />
+        <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size" />
         <strong>$90</strong>
         <div className="price-list">
         <div className="cost-title">

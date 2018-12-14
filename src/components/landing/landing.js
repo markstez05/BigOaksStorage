@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./landing.css"
 import { FaFacebook, FaInstagram, FaFile , FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare } from "react-icons/fa";
 import BigOaksStorageLogo from "../images/BigOaksStorageLogo.png"
-import StorageStock from "../images/StorageStock.png"
+import BigOaksLarge from "../images/BigOaksPNG1.png";
 
 class Landing extends Component {
 
@@ -12,8 +12,9 @@ render () {
         <div id="home" className="landing-container">
         <div className="opac">
         <div className="photo-text">
+        <img src={ BigOaksLarge } alt="Big-Oaks-Storage-Logo-Large" className="oaks-big"/>
         <h1>Big Oaks Self-Storage</h1>
-        <h5>Premier, climate control, self-Storage units conveniently located in Northwest Arkansas.</h5>
+        <h5>Premier, climate control, self-torage units conveniently located in Northwest Arkansas.</h5>
         <button className="landing-button">FIND OUT MORE</button>
         </div>
         </div>
