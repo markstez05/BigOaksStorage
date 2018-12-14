@@ -1,12 +1,13 @@
 .pricing-container{
     display: flex;
     flex-direction: column;
-    background-color: white;
-    margin-bottom: 50px;
+    background-color: #F7F8FA;
+    padding-bottom: 50px;
     z-index: 1;
 }
 .unit-size{
     border-radius: 100%;
+    background-color: white;
     height: 100px;
     width: 100px;
     padding: 3px;
@@ -22,6 +23,7 @@
     align-items: flex-end;
 }
 .price-card{
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,6 +54,7 @@
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 .price-card1{
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -67,6 +70,7 @@
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 .price-card2{
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -82,6 +86,7 @@
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 .price-card3{
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -97,6 +102,7 @@
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 .price-card4{
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

@@ -39,7 +39,8 @@
     /* border: 1px solid red; */
     color:rgb(41, 41, 41);
     text-decoration: none;
-    height: 150px;
+    height: 30px;
+    width: 400px;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -52,9 +53,8 @@
     color:rgb(105, 105, 105);
     font-size: 1rem;
 }
-.navbarA:hover {
-    transition: .2s;
-    text-decoration: underline;
+.navbarA:hover p{
+    border-bottom: 1px solid #BA433D;
     color: #BA433D;
 }
 .nav-link{

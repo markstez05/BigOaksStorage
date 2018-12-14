@@ -5,6 +5,7 @@ import Landing from "./components/landing/landing";
 import Nav from "./components/nav/nav";
 import Services from "./components/services/services";
 import Pricing from "./components/pricing/pricing";
+import Footer from "./components/footer/footer.js";
 import './App.css';
 
 class App extends Component {
@@ -16,18 +17,7 @@ class App extends Component {
       <Landing />
       <Services />
       <Pricing />
-      <div>
-      <footer className="footer">
-      <div>
-        <p>contact</p>
-      </div>
-      <div>
-      © 2018 
-      <a className="atag" href="https://markstesney.netlify.com/">Mark Stesney</a>
-       | Site By <a className="atag" href="https://markstesney.netlify.com/">Sakkey</a>
-      </div>
-      </footer>
-      </div>
+      <Footer />
       </div>
     );
   }

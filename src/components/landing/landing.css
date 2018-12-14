@@ -92,6 +92,7 @@
 }
 .bottom-bar-icons:hover{
     color:#BA433D;
+    transition: all ease-in .1s;
 }
 .bottom-bar-icons1{
     position: relative;

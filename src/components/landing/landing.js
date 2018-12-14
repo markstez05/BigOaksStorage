@@ -33,8 +33,6 @@ render () {
               >
             <FaInstagram className="bottom-bar-icons" /></a>
               <a
-                target="_blank"
-                rel="noopener noreferrer"
                 href="/"
               >
               <img src={ BigOaksStorageLogo } alt="Big-Oaks-Storage-Logo" className="bottom-bar-icons1"/>
@@ -43,7 +41,7 @@ render () {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="mailto:email@email.com"
+              href="mailto:info@bigoaksstorage.com"
               >
             <FaEnvelope className="bottom-bar-icons" /></a>
             <a

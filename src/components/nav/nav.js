@@ -59,25 +59,8 @@ class NavBar extends Component{
         return(
           <div id="navdiv" className="navdiv">
           <div>
-          <a className="title1" href="/"><img src={ BigOaksTitleLogo } alt="big-oaks-storage-logo" className="logo-pic"></img></a></div>
-            {/* <div className="navbar1">
-                <a style={{color: this.state.isTop ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
-                  className="nav-link"
-                  href="#home">
-                  <FaHome/></a>
-                <a style={{color: this.state.isMid ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
-                  className="nav-link"
-                  href="#about">
-                  <FaUser/></a>
-               <a style={{color: this.state.isBot ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
-               className="nav-link"
-               href="#resume">
-                  <FaFile/></a>
-                  <a style={{color: this.state.isBotter ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
-               className="nav-link"
-               href="#work">
-                  <FaBriefcase/></a>
-            </div> */}
+          <a className="title1" href="/">
+          <img src={ BigOaksTitleLogo } alt="big-oaks-storage-logo" className="logo-pic"></img></a></div>
             <div className="navbar2">
             <a
              className="navbarA"
@@ -85,25 +68,28 @@ class NavBar extends Component{
               rel="noopener noreferrer"
               href="https://www.bigoaksstorage.com"
               >
-            HOME</a>
-            {/* <a
+            <p>HOME</p></a>
+            <a
+            className="navbarA"
               target="_blank"
               rel="noopener noreferrer"
               href="https://github.com/markstez05"
               >
-            <FaGithub className="icons" /></a>
+              <p>UNITS</p></a>
             <a
+            className="navbarA"
               target="_blank"
               rel="noopener noreferrer"
               href="mailto:mstesney12@gmail.com"
               >
-            <FaEnvelope className="icons" /></a>
+            <p>ABOUT</p></a>
             <a
+            className="navbarA" 
               target="_blank"
               rel="noopener noreferrer"
               href="tel:1-918-361-8479"
               >
-            <FaPhoneSquare className="icons" /></a> */}
+           <p>CONTACT</p></a>
             </div>
             <div className="dropdown">
     <button className="dropbtn">
