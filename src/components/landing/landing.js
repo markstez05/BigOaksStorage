@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./landing.css"
 import { FaFacebook, FaInstagram, FaFile , FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare } from "react-icons/fa";
-import BigOaksStorageLogo from "../images/BigOaksStorageLogo.png"
+import BigOaksStorageLogo from "../images/BigOaksGrayScale.png"
 import BigOaksLarge from "../images/BigOaksPNG1.png";
 
 class Landing extends Component {
@@ -38,6 +38,7 @@ render () {
                 href="/"
               >
               <img src={ BigOaksStorageLogo } alt="Big-Oaks-Storage-Logo" className="bottom-bar-icons1"/>
+              <img src={ BigOaksLarge } alt="Big-Oaks-Storage-Logo" className="bottom-bar-icons2"/>
               </a>
             <a
               target="_blank"
