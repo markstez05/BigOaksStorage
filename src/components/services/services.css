@@ -13,12 +13,13 @@
 .services h1{
     font-weight: normal;
     font-size: 2.3rem;
-    color: rgb(73, 73, 73);
+    color: rgb(26, 26, 26);
 }
 .services h5{
-    color: rgb(22, 22, 22);
-    font-weight: 300;
-    font-size: 1.3rem;
+    color: rgb(82, 82, 82);
+    font-weight: 500;
+    font-size: 1.2rem;
+    font-style: italic;
 }
 .bar{
     margin: auto;

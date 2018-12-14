@@ -33,7 +33,7 @@ render () {
         </div>
         <div className="price-card1">
         <img src={ UnitSize1 } alt="Storage Unit Size" className="unit-size" />
-        <strong>$60</strong>
+        <strong>$60</strong><p>Monthly</p>
         <div className="price-list">
         <div className="cost-title">
         <p>Floor Space:</p>
@@ -48,7 +48,7 @@ render () {
         </div>
         <div className="price-card2">
         <img src={ UnitSize2 } alt="Storage Unit Size" className="unit-size" />
-        <strong>$75</strong>
+        <strong>$75</strong><p>Monthly</p>
         <div className="price-list">
         <div className="cost-title">
         <p>Floor Space:</p>
@@ -63,7 +63,7 @@ render () {
         </div>
         <div className="price-card3">
         <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size" />
-        <strong>$90</strong>
+        <strong>$90</strong><p>Monthly</p>
         <div className="price-list">
         <div className="cost-title">
         <p>Floor Space:</p>
