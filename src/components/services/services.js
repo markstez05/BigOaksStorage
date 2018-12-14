@@ -61,7 +61,13 @@ render () {
         <div className="bar2"></div>
         <p>We offer premier storage facilities in NWA for all types of self-storage including Boats, RV’s, Residential, Commercial, Climate Control and Warehouse storage. Our facilities are designed to accommodate EASY ACCESS with full frontage road access and wide open spaces for turn around. We are located on Highway 62 five minutes North of Rogers, AR.</p>
         </div>
+        <div className="storage-div"> 
         <img src={ StorageContainer} alt="NWA Storage Unit" className="storage-photo" />
+        <div className="slide-info2">
+        <p>"It’s important to us as a business that we treat our environment well."</p>
+        <button className="price-button1">MORE INFO</button>
+        </div>
+        </div>
         </div>
         <div className="units">
         <div className="services">

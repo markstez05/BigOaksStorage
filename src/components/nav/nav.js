@@ -62,34 +62,10 @@ class NavBar extends Component{
           <a className="title1" href="/">
           <img src={ BigOaksTitleLogo } alt="big-oaks-storage-logo" className="logo-pic"></img></a></div>
             <div className="navbar2">
-            <a
-             className="navbarA"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.bigoaksstorage.com"
-              >
-            <p>HOME</p></a>
-            <a
-            className="navbarA"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/markstez05"
-              >
-              <p>UNITS</p></a>
-            <a
-            className="navbarA"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="mailto:mstesney12@gmail.com"
-              >
-            <p>ABOUT</p></a>
-            <a
-            className="navbarA" 
-              target="_blank"
-              rel="noopener noreferrer"
-              href="tel:1-918-361-8479"
-              >
-           <p>CONTACT</p></a>
+            <p className="navbarA">HOME</p>
+              <p className="navbarA">UNITS</p>
+            <p className="navbarA">ABOUT</p>
+           <p className="navbarA">CONTACT</p>
             </div>
             <div className="dropdown">
     <button className="dropbtn">

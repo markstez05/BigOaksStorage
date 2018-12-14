@@ -14,7 +14,7 @@ render () {
         <div className="photo-text">
         <img src={ BigOaksLarge } alt="Big-Oaks-Storage-Logo-Large" className="oaks-big"/>
         <h1>Big Oaks Self-Storage</h1>
-        <h5>Premier, climate control, self-torage units conveniently located in Northwest Arkansas.</h5>
+        <h5>Premier, climate control, self-storage units conveniently located in Northwest Arkansas.</h5>
         <button className="landing-button">FIND OUT MORE</button>
         </div>
         </div>
