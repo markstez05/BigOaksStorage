@@ -6,6 +6,7 @@ import Nav from "./components/nav/nav";
 import Services from "./components/services/services";
 import Pricing from "./components/pricing/pricing";
 import Footer from "./components/footer/footer.js";
+import FooterMap from "./components/map/map.js";
 import './App.css';
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
       <Landing />
       <Services />
       <Pricing />
+      <FooterMap />
       <Footer />
       </div>
     );

@@ -6,6 +6,7 @@
   flex-direction: column;
   text-align: center;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .big-oaks-storage-bg{
   background-image: url("./components/images/StorageStock.png");
@@ -18,29 +19,7 @@
   background-size: 100% 772px;
   z-index: 0;
 }
-.footer{
-  position: relative;
-  color:rgb(63, 63, 63);
-  text-align: center;
-  padding-top: 70px;
-  height: 80px;
-  background-color: #1d1d1d;
 
-}
-.foot-tag{
-  color: rgb(110, 110, 110);
-  font-size: 1rem;
-}
-.atag{
-  color: rgb(110, 110, 110);
-  font-size: 1rem;
-  text-decoration: none !important;
-}
-.atag:hover{
-  text-decoration: none;
-  color: rgb(207, 207, 207);
-  transition: all ease-in .2s; 
-}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
