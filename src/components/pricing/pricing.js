@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
 import "./pricing.css"
+import { Link } from "react-router-dom";
 import UnitSize from "../images/UnitSize.png";
 import UnitSize1 from "../images/UnitSize1.png";
 import UnitSize2 from "../images/UnitSize2.png";
 import UnitSize3 from "../images/UnitSize3.png";
+import { FaArrowUp } from "react-icons/fa";
+
 class Pricing extends Component {
 
+    scrollTop = () => {
+        window.scroll({ top: 0, left: 0, behavior: 'smooth' });
+    }
 
 render () {
     return (
@@ -77,7 +83,11 @@ render () {
         <button className="price-button">RESERVE TODAY</button>
         </div>
         </div>
-        <button className="landing-button1">MORE UNITS</button>
+       <Link to="/units"> <button className="landing-button1">MORE UNITS</button></Link>
+       <FaArrowUp 
+       onClick={ this.scrollTop }
+       className="arrow"
+       />
         </div>
         )
     }

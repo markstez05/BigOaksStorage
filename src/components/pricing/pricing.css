@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: #F7F8FA;
     padding-bottom: 50px;
-    z-index: 1;
+    z-index: 3;
 }
 .unit-size{
     border-radius: 100%;
@@ -49,8 +49,9 @@
     border: 2px solid #BA433D;
 }
 .price-card:hover{
-    /* transform: translate(0, -1%); */
+    transform: translate(0, -1%);
     transition: all ease-in-out .3s;
+    box-shadow: 2px 3px 5px 1px rgba(235, 235, 235, 0.699);
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 .price-card1{
@@ -65,8 +66,9 @@
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
 }
 .price-card1:hover{
-    /* transform: translate(0, -1%); */
+    box-shadow: 2px 3px 5px 1px rgba(235, 235, 235, 0.699);
     transition: all ease-in-out .4s;
+    transform: translate(0, -1%);
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 .price-card2{
@@ -81,8 +83,9 @@
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
 }
 .price-card2:hover{
-    /* transform: translate(0, -1%); */
+    box-shadow: 2px 3px 5px 1px rgba(235, 235, 235, 0.699);
     transition: all ease-in-out .4s;
+    transform: translate(0, -1%);
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 .price-card3{
@@ -97,7 +100,8 @@
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
 }
 .price-card3:hover{
-    /* transform: translate(0, -1%); */
+    box-shadow: 2px 3px 5px 1px rgba(235, 235, 235, 0.699);
+    transform: translate(0, -1%);
     transition: all ease-in-out .4s;
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
@@ -112,19 +116,21 @@
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
 }
 .price-card4:hover{
-    /* transform: translate(0, -1%); */
+    box-shadow: 2px 3px 5px 1px rgba(235, 235, 235, 0.699);
+    transform: translate(0, -1%);
     transition: all ease-in-out .4s;
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 strong{
-    font-weight: normal;
-    font-size: 1.1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
     margin-top: -40px;
     color: #BA433D;
 }
 .cost-title p{
     font-weight: bold;
     font-style: italic;
+    text-align: right;
 }
 .cost-value{
     color:gray;
@@ -133,7 +139,7 @@ strong{
     width: 90%;
     text-align: left;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .price-button{
     height: 50px;
@@ -166,4 +172,22 @@ strong{
 .landing-button1:hover{
     cursor: pointer;
     background-color: rgb(163, 59, 53);
+}
+.arrow{
+    color:  white;
+    background-color: rgb(186, 67, 61);
+    /* border: 2px solid rgb(26, 26, 26); */
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: auto;
+    transform: translate(0, 175%);
+    padding: 5px;
+    z-index: 6;
+}
+.arrow:hover{
+    cursor: pointer;
+    color: rgb(186, 67, 61);
+    background-color: rgb(26, 26, 26);
+    transition: all ease-in-out .2s;
 }

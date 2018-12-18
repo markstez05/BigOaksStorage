@@ -17,7 +17,7 @@ render () {
         <div className="bar"></div>
         <h5>Premier Storage Facilities in NWA For All Types of Self-Storage</h5>
         </div>
-        <div className="card-container">
+        <div id="about" className="card-container">
         <div className="card">
         <FaUserPlus className="card-icons" />
         <h3>Convenience</h3>

@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import "./landing.css"
-import { FaFacebook, FaInstagram, FaFile , FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaEnvelope, FaPhoneSquare } from "react-icons/fa";
 import BigOaksStorageLogo from "../images/BigOaksGrayScale.png"
 import BigOaksLarge from "../images/BigOaksPNG1.png";
 
 class Landing extends Component {
 
+  scrollAbout = () => {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+  }
 
 render () {
     return (
@@ -15,7 +18,7 @@ render () {
         <img src={ BigOaksLarge } alt="Big-Oaks-Storage-Logo-Large" className="oaks-big"/>
         <h1>Big Oaks Self-Storage</h1>
         <h5>Premier, climate control, self-storage units conveniently located in Northwest Arkansas.</h5>
-        <button className="landing-button">FIND OUT MORE</button>
+        <button onClick={this.scrollAbout}className="landing-button">FIND OUT MORE</button>
         </div>
         </div>
         <div className="landing-bottom-bar">

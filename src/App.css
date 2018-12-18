@@ -7,6 +7,7 @@
   text-align: center;
   overflow-x: hidden;
   overflow-y: hidden;
+  scroll-behavior: smooth;
 }
 .big-oaks-storage-bg{
   background-image: url("./components/images/StorageStock.png");

@@ -1,7 +1,6 @@
 /*global google*/
 import React, { Component } from "react";
 import { Map, Marker, GoogleApiWrapper, InfoWindow } from "google-maps-react";
-import { Link } from "react-router-dom";
 import BigOaksLarge from "../images/BigOaksPNG1.png";
 import MarkerLogo from "./marker.png";
 
@@ -139,8 +138,8 @@ onMapClicked = (props) => {
             //HARD CODED MARKER FOR VIEW TEST
                   onClick={this.onMarkerClick}
                   style={{height: '100px', width: '150px'}}
-                  name={'Current location'}
-                  title={'Mark Stesney'}
+                  name={"Big Oaks Self-Storage"}
+                  title={'Big Oaks Self-Storage'}
                   position={{lat: 36.0822, lng: - 94.1719}}
                   icon={{
                     scaledSize: new google.maps.Size(30,50),
@@ -152,11 +151,14 @@ onMapClicked = (props) => {
             visible={this.state.showingInfoWindow}>
               <div className="infowindow">
               {/* HARD CODED USER INFO FOR VIEW TEST */}
-                <h2>Big Oaks Storage</h2>
-                <p>We offer the BEST in Self-Storage!</p>
-                <img style={{height: '50px', width: '70px' }} src={ BigOaksLarge } alt="Big-Oaks-Storage-Logo" />
-                <h5>Fayetteville, AR</h5>
-                <button>View Profile</button>
+                <img style={{height: '50px', width: '80px' }} src={ BigOaksLarge } alt="Big-Oaks-Storage-Logo" />
+                <h3>Fayetteville, AR</h3>
+                <a 
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.google.com/maps/dir//Fayetteville,+AR/@36.0692663,-94.2322824,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87c96f7b2fb53e9d:0x4519f069fcb4c8cf!2m2!1d-94.1718542!2d36.082156">
+                <button className="map-button">GET DIRECTIONS</button>
+                </a>
               </div>
           </InfoWindow>
             </Map>

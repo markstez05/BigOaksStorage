@@ -12,6 +12,10 @@
     z-index: 4;
     font-family: Sintony;
     font-weight: 400;
+    text-decoration: none;
+}
+a:visited, a:link, a:active{
+    text-decoration: none;
 }
 .dropdown{
     display:none;
@@ -194,6 +198,10 @@
         height: 60px;
         box-shadow: 0px 1px 5px 2px rgb(46, 46, 46, .0);
         z-index: 15;
+    }
+    .navdiv p{
+        text-decoration: none;
+        color: white;
     }
     .logo-pic{
         margin-left: -50px;

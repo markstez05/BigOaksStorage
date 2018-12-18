@@ -5,3 +5,15 @@
     height: 300px;
     z-index: 2;
 }
+.map-button{
+    color: white;
+    background-color:#B54140;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 3px solid gray;
+}
+.map-button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 91, 88);
+}

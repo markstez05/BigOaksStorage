@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import "./nav.css";
-import { FaTimes, FaBriefcase, FaBars, FaFile , FaHome, FaGithub, FaLinkedin, FaEnvelope, FaPhoneSquare, FaUser } from "react-icons/fa";
+import { FaTimes, FaBriefcase, FaBars, FaFile , FaHome, FaUser } from "react-icons/fa";
 import BigOaksTitleLogo from "../../components/images/BigOaksTitleLogo.png"
 class NavBar extends Component{
     state = {
@@ -10,16 +11,6 @@ class NavBar extends Component{
     isBotter: false
   };
 
-  // click = () =>{
-  //   document.getElementById("dropdown-content").style.display = "block";
-  //   document.getElementById("bars").style.display = "none";
-  //   document.getElementById("x").style.display = "block";
-  // }
-  // clickx = () =>{
-  //   document.getElementById("dropdown-content").style.display = "none";
-  //   document.getElementById("bars").style.display = "block";
-  //   document.getElementById("x").style.display = "none";
-  // }
   componentDidMount() {
     document.addEventListener('scroll', () => {
     const isTop = window.scrollY < 400;
@@ -27,7 +18,6 @@ class NavBar extends Component{
     const isBot = window.scrollY > 1100 && window.scrollY < 1900;
     const isBotter = window.scrollY > 1900 && window.scrollY < 4100;
     
-    console.log(window.scrollY);
     if (isTop !== this.state.isTop) {
       this.setState({ isTop });
     }
@@ -41,20 +31,8 @@ class NavBar extends Component{
       this.setState({ isBotter });
     }
       })
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-    
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
-            });
-        });
-    });
   };
-  
-  scrollTop = () => {
-     document.documentElement.scrollTop = 0;
-   }
+
     render(){
         return(
           <div id="navdiv" className="navdiv">
@@ -62,10 +40,10 @@ class NavBar extends Component{
           <a className="title1" href="/">
           <img src={ BigOaksTitleLogo } alt="big-oaks-storage-logo" className="logo-pic"></img></a></div>
             <div className="navbar2">
-            <p className="navbarA">HOME</p>
-              <p className="navbarA">UNITS</p>
+            <Link to='/'><p className="navbarA">HOME</p></Link>
+            <Link to='/units'><p className="navbarA">UNITS</p></Link>
             <p className="navbarA">ABOUT</p>
-           <p className="navbarA">CONTACT</p>
+           <p className="navbarA">FAQ</p>
             </div>
             <div className="dropdown">
     <button className="dropbtn">
@@ -85,32 +63,6 @@ class NavBar extends Component{
                   <a style={{color: this.state.isBotter ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
                href="#work">
                   <FaBriefcase/> Projects</a>
-                  {/* <div className="navbar3">
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/mark-stesney/"
-              >
-            <FaLinkedin className="icons3" /></a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/markstez05"
-              >
-            <FaGithub className="icons3" /></a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="mailto:mstesney13@gmail.com"
-              >
-            <FaEnvelope className="icons3" /></a>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="tel:1-918-361-8479"
-              >
-            <FaPhoneSquare className="icons3" /></a>
-            </div> */}
     </div>
   </div> 
             </div>
