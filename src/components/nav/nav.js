@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import "./nav.css";
-import { FaTimes, FaBriefcase, FaBars, FaFile , FaHome, FaUser } from "react-icons/fa";
+import { FaTimes, FaBriefcase, FaBars, FaArchive , FaHome, FaUser, FaQuestion } from "react-icons/fa";
 import BigOaksTitleLogo from "../../components/images/BigOaksTitleLogo.png"
 class NavBar extends Component{
     state = {
@@ -51,18 +51,18 @@ class NavBar extends Component{
     <FaTimes id="x" className="x" onClick={this.clickx}/>
     </button>
     <div id="dropdown-content" className="dropdown-content">
-    <a style={{color: this.state.isTop ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
-                  href="#home">
-                  <FaHome/> Home</a>
-                <a style={{color: this.state.isMid ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
-                  href="#about">
-                  <FaUser/>   About</a>
-               <a style={{color: this.state.isBot ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
+            <a 
+                  href="/">
+                  <FaHome className="nav-icons"/> <span>  </span> HOME</a>
+                <a 
+                  href="/units">
+                  <FaArchive className="nav-icons"/> <span>  </span> UNITS</a>
+               <a
                href="#resume">
-                  <FaFile/> Resume</a>
-                  <a style={{color: this.state.isBotter ? "rgb(7, 231, 231)" : "rgb(71, 71, 71)"}}
+                  <FaUser className="nav-icons" /> <span>  </span> ABOUT</a>
+                  <a
                href="#work">
-                  <FaBriefcase/> Projects</a>
+                  <FaQuestion className="nav-icons"/> <span>  </span> FAQ</a>
     </div>
   </div> 
             </div>

@@ -54,7 +54,12 @@ componentDidMount = () =>{
         <h3> {this.state.doorSize}</h3>
         </div>
         </div>
-        <h1>{this.state.size} UNIT SIZE</h1>
+        <h1> Call
+        <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="tel:1-555-555-5555"
+              > 555-555-5555</a> To Reserve</h1>
         </div>
       );
           } else {
@@ -90,7 +95,7 @@ componentDidMount = () =>{
         className="price-card-alt">
         <img src={ UnitSize } alt="Storage Unit Size" className="unit-size1" />
         <p><strong>$50</strong> per month</p>
-        <div className="price-list">
+        <div className="price-list2">
         <div className="cost-title">
         <p>Floor Space:</p>
         <p>Door Size:</p>
@@ -115,7 +120,7 @@ componentDidMount = () =>{
         className="price-card-alt">
         <img src={ UnitSize1 } alt="Storage Unit Size" className="unit-size1" />
         <p><strong>$60</strong> per month</p>
-        <div className="price-list">
+        <div className="price-list2">
         <div className="cost-title">
         <p>Floor Space:</p>
         <p>Door Size:</p>
@@ -140,7 +145,7 @@ componentDidMount = () =>{
         className="price-card-alt">
         <img src={ UnitSize2 } alt="Storage Unit Size" className="unit-size1" />
         <p><strong>$75</strong> per month</p>
-        <div className="price-list">
+        <div className="price-list2">
         <div className="cost-title">
         <p>Floor Space:</p>
         <p>Door Size:</p>
@@ -164,7 +169,7 @@ componentDidMount = () =>{
         className="price-card-alt">
         <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size1" />
         <p><strong>$90</strong> per month</p>
-        <div className="price-list">
+        <div className="price-list2">
         <div className="cost-title">
         <p>Floor Space:</p>
         <p>Door Size:</p>
@@ -188,7 +193,7 @@ componentDidMount = () =>{
         className="price-card-alt">
         <img src={ UnitSize4 } alt="Storage Unit Size" className="unit-size1" />
         <p><strong>$160</strong> per month</p>
-        <div className="price-list">
+        <div className="price-list2">
         <div className="cost-title">
         <p>Floor Space:</p>
         <p>Door Size:</p>
@@ -212,7 +217,7 @@ componentDidMount = () =>{
         className="price-card-alt">
         <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size1" />
         <p><strong>$30</strong> per month</p>
-        <div className="price-list">
+        <div className="price-list2">
         <div className="cost-title">
         <p>Outside Trailer:</p>
         <p>RV:</p>

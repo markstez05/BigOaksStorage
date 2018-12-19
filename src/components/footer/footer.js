@@ -15,11 +15,15 @@ class Footer extends Component {
     return (
         <footer className="footer">
         <FooterMap />
-  
             <div className="contact-us">
             <h2>Contact Us</h2>
             <h5><strong>Address: </strong>  123 Street Fayetteville, AR</h5>
-            <h5><strong>Phone: </strong> 555-555-5555</h5>
+            <h5><strong>Phone: </strong> 
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="tel:1-555-555-5555"
+              > 555-555-5555</a></h5>
             <div className="footer-media">
             <a
               className="map-a"

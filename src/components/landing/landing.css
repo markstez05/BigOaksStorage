@@ -234,6 +234,30 @@
     .fall{
         height: 605px;
     }
+    .oaks-big{
+        opacity: 0;
+        width: 240px;
+        height: 150px;
+        margin-right: 100px;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn 1.5s;
+        -moz-animation:  fadeIn 1.5s forwards;
+        -webkit-animation: fadeIn 1.5s forwards;
+    }
+    .photo-text{
+        color:white;
+        font-size: 2rem;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: auto;
+        align-content: center;
+        align-items: center;
+    }
+    .photo-text h1{
+        font-size: 3rem; 
+    }
 }
 @media (max-width: 650px){
 
@@ -247,46 +271,7 @@
         animation: rotation1 ease-in-out 2s;
         animation-fill-mode: forwards;  
     }
-    .bar{
-        opacity: 0;
-        animation: .8s ease-in-out slideInFromTop;
-        animation-fill-mode: forwards;  
-        animation-delay: 1.8s; 
-        margin: auto;
-        margin-top: 18px;
-        width: 3px;
-        height: 50px;
-        background-color: #95531E;
-        z-index: 10;
-    }
-    .box{
-        opacity: 0;
-        margin-right:70px;
-        width: 290px;
-        height: 3px;
-        background-color: #95531E;
-        animation: 1.5s ease-in-out slideInFromLeft1;
-        animation-fill-mode: forwards;  
-        animation-delay: 2.5s;
-    }
-    .welcome{
-        opacity: 0;
-        margin-top: -5px;
-        margin-bottom: 5px;
-        margin-right: 20px;
-        border-radius: 0px;
-        animation: fadeIn 3s;
-        animation-fill-mode: forwards;  
-        animation-delay: 3.7s;
-    }
-    .box1{
-        margin: auto;
-        margin-top: 0px;
-        padding-bottom: 5px;
-        color: #13C1C2;
-        font-family: Lato;
-        font-weight: 700;
-        font-size: 2.9rem;
-        width: 400px;
+    .photo-text h1{
+        font-size: 2.3rem; 
     }
 }

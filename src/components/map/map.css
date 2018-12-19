@@ -4,6 +4,7 @@
     width: 350px;
     height: 300px;
     z-index: 2;
+    margin-top: -10px;
 }
 .map-button{
     color: white;
@@ -16,4 +17,25 @@
 .map-button:hover{
     cursor: pointer;
     background-color: rgb(255, 91, 88);
+}
+
+@media (max-width: 630px){
+    .map-container {
+        overflow-y: hidden;
+        overflow: hidden;
+        position: relative;
+        z-index: 2;
+        transform: scale(.9);
+        margin: auto;
+    }
+}
+@media (max-width: 480px){
+    .map-container {
+        overflow-y: hidden;
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+        z-index: 2;
+        transform: scale(.9);
+    }
 }

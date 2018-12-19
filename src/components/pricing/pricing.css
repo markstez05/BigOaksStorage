@@ -191,3 +191,33 @@ strong{
     background-color: rgb(26, 26, 26);
     transition: all ease-in-out .2s;
 }
+@media (max-width: 1200px){
+    .price-card-div{
+        margin: auto;
+        margin-top: 100px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        height: 1400px;
+        align-items: center;
+    }
+    .price-list{
+        width: 300px;
+        text-align: left;
+        display: flex;
+        justify-content: space-around;
+    }
+    .price-card{
+        width: 80%;
+    }
+    .price-card1{
+        width: 80%;
+    }
+    .price-card2{
+        width: 80%;
+    }
+    .price-card3{
+        width: 80%;
+    }
+}

@@ -24,7 +24,6 @@ a:visited, a:link, a:active{
     margin: auto;
     margin-left: 10px;
     margin-top: 12px;
-
 }
 .navbar1{
     display:flex;
@@ -147,32 +146,37 @@ a:visited, a:link, a:active{
     }
     
     .dropdown-content {
-        height: 200px;
+        background-color: white;
+        height: 180px;
         margin-top: 0px;
+        margin-bottom: 0px;
         display: none;
         position: absolute;
         right: 0%;
-        min-width: 260px;
+        width: 100%;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
     }
     
     .dropdown-content a {
         /* float: none; */
-        margin-bottom: 5px;
-        color: black;
+        margin-bottom: 0px;
+        color: rgb(92, 92, 92);
         padding: 12px 16px;
+        border-bottom: 1px solid rgb(236, 236, 236);
         text-decoration: none;
         display: block;
         text-align: left;
-       
+        width: 100%;
+
     }
     .dropdown-content a:hover {
         background-color: #BA433D;
-        /* font-weight: 700; */
-        color: rgb(75, 75, 75);
+        color: white;
     }
-    
+    .nav-icons{
+        margin-right: 15px;
+    }
     .dropdown:hover .dropdown-content {
         display: block;
         color: #BA433D;
@@ -269,6 +273,11 @@ a:visited, a:link, a:active{
     .title1:hover{
         text-decoration: none;
         color: rgb(43, 29, 10);
+    }
+    .logo-pic{
+        margin: auto;
+        margin-left: -10px;
+        margin-top: 12px;
     }
     
 }
