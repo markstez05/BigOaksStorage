@@ -78,10 +78,10 @@ componentDidMount = () =>{
       <div>{picture}</div>
       </div>
        <div className="price-card-div1">
-
+        <div className="card-div-title">
         <h2>UNITS & PRICING</h2>
         <div className="bar"></div>
-        
+        </div>
         <div 
         onClick={() => {
           this.setState({
