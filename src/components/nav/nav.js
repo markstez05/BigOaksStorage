@@ -51,18 +51,10 @@ class NavBar extends Component{
     <FaTimes id="x" className="x" onClick={this.clickx}/>
     </button>
     <div id="dropdown-content" className="dropdown-content">
-            <a 
-                  href="/">
-                  <FaHome className="nav-icons"/> <span>  </span> HOME</a>
-                <a 
-                  href="/units">
-                  <FaArchive className="nav-icons"/> <span>  </span> UNITS</a>
-               <a
-               href="#resume">
-                  <FaUser className="nav-icons" /> <span>  </span> ABOUT</a>
-                  <a
-               href="#work">
-                  <FaQuestion className="nav-icons"/> <span>  </span> FAQ</a>
+      <Link to='/'><FaHome className="nav-icons"/>HOME</Link>
+      <Link to='/units'><FaArchive className="nav-icons"/>UNITS</Link>
+      <Link to='/'><FaUser className="nav-icons" />ABOUT</Link>
+      <Link to='/'><FaQuestion className="nav-icons"/>FAQ</Link>
     </div>
   </div> 
             </div>
