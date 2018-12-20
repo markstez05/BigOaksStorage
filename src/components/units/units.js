@@ -5,6 +5,7 @@ import UnitSize1 from "../images/UnitSize1.png";
 import UnitSize2 from "../images/UnitSize2.png";
 import UnitSize3 from "../images/UnitSize3.png";
 import UnitSize4 from "../images/UnitSize4.png"
+import { FaTimes } from "react-icons/fa";
 import './units.css';
 
 class Units extends Component {
@@ -40,7 +41,9 @@ componentDidMount = () =>{
           }}
         >
         <div className="modal-info">
-        <img src={BigOaksLarge} alt="big oaks storage logo" className="big-oaks-modal" />
+        <FaTimes className="modal-close" />
+        {/* <img src={BigOaksLarge} alt="big oaks storage logo" className="big-oaks-modal" /> */}
+        <div className="modal-text-div">
         <div className="modal-title">
         <h3>Price: </h3>
         <h3>Size: </h3>
@@ -52,6 +55,7 @@ componentDidMount = () =>{
         <h3>{this.state.size}</h3>
         <h3> {this.state.floorSpace}</h3>
         <h3> {this.state.doorSize}</h3>
+        </div>
         </div>
         </div>
         <h1> Call
@@ -74,8 +78,8 @@ componentDidMount = () =>{
       <div className="unit-container">
       <div className="display-container">
       <div className="unit-display">
-      <div>{modal}</div>
       <div>{picture}</div>
+      {modal}
       </div>
        <div className="price-card-div1">
         <div className="card-div-title">

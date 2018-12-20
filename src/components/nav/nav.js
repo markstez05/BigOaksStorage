@@ -1,37 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import "./nav.css";
-import { FaTimes, FaBriefcase, FaBars, FaArchive , FaHome, FaUser, FaQuestion } from "react-icons/fa";
+import { FaTimes, FaBars, FaArchive , FaHome, FaUser, FaQuestion } from "react-icons/fa";
 import BigOaksTitleLogo from "../../components/images/BigOaksTitleLogo.png"
 class NavBar extends Component{
-    state = {
-    isTop: true,
-    isMid: false,
-    isBot: false,
-    isBotter: false
-  };
-
-  componentDidMount() {
-    document.addEventListener('scroll', () => {
-    const isTop = window.scrollY < 400;
-    const isMid = window.scrollY > 400 && window.scrollY < 1100;
-    const isBot = window.scrollY > 1100 && window.scrollY < 1900;
-    const isBotter = window.scrollY > 1900 && window.scrollY < 4100;
-    
-    if (isTop !== this.state.isTop) {
-      this.setState({ isTop });
-    }
-    if (isMid !== this.state.isMid) {
-      this.setState({ isMid });
-    }
-    if (isBot !== this.state.isBot) {
-      this.setState({ isBot });
-    }
-    if (isBotter !== this.state.isBotter) {
-      this.setState({ isBotter });
-    }
-      })
-  };
 
     render(){
         return(
@@ -59,6 +31,7 @@ class NavBar extends Component{
   </div> 
             </div>
         )
+        
     }
 
 }

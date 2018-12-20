@@ -8,6 +8,9 @@ import UnitSize3 from "../images/UnitSize3.png";
 import { FaArrowUp } from "react-icons/fa";
 
 class Pricing extends Component {
+    constructor(props){
+        super(props);
+      }
 
     scrollTop = () => {
         window.scroll({ top: 0, left: 0, behavior: 'smooth' });
@@ -22,7 +25,7 @@ render () {
         <h5>Unit Sizes & Pricing with Insulated Roofs, Concrete Floors, Roll-up Doors</h5>
         </div>
         <div className="price-card-div">
-        <div className="price-card">
+        <div  data-aos="flip-right" className="price-card">
         <img src={ UnitSize } alt="Storage Unit Size" className="unit-size" />
         <strong>$50</strong>
         <div className="price-list">
@@ -37,7 +40,7 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div className="price-card1">
+        <div  data-aos="flip-right" data-aos-delay="400" className="price-card1">
         <img src={ UnitSize1 } alt="Storage Unit Size" className="unit-size" />
         <strong>$60</strong>
         <div className="price-list">
@@ -52,7 +55,7 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div className="price-card2">
+        <div data-aos="flip-right" data-aos-delay="800" className="price-card2">
         <img src={ UnitSize2 } alt="Storage Unit Size" className="unit-size" />
         <strong>$75</strong>
         <div className="price-list">
@@ -67,7 +70,7 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div className="price-card3">
+        <div data-aos="flip-right" data-aos-delay="1200" className="price-card3">
         <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size" />
         <strong>$90</strong>
         <div className="price-list">

@@ -21,14 +21,15 @@
     justify-content: center;
     max-height: 900px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-right: 20px;
 }
 .unit-display{
-    border-bottom: 1px solid rgba(146, 146, 146, 0.699);
-    background-color: white;
+    /* border-bottom: 1px solid rgba(146, 146, 146, 0.699); */
+    /* background-color: white; */
     padding-right: 20px;
     display: flex;
+    margin-left: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -40,8 +41,10 @@
     width: 100%;
 }
 .price-card-div1{
+    box-shadow: inset 1px 1px 1px gray;
     border-bottom: 1px solid rgba(117, 117, 117, 0.699);
     padding-bottom: 50px;
+    background-color: rgb(214, 214, 214);
     padding-right: 80px;
     padding-left:30px;
     display: flex;
@@ -127,17 +130,34 @@
 }
 .modal{
     opacity: 0;
-    width: fit-content;
-    height: fit-content;
+    /* justify-self: center;
+    align-self: center; */
+    background-color: rgba(255, 255, 255, 0.897);
+    margin-left: 30px;
+    width: 100%;
+    height: 100%;
+    position: relative;
     z-index: 20;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     animation-fill-mode: forwards;
-    animation-name: fadeIn1 1.4s;
-    -moz-animation:  fadeIn1 1.4s forwards;
-    -webkit-animation: fadeIn1 1.4s forwards;
+    animation-name: fadeIn1 1s;
+    -moz-animation:  fadeIn1 1s forwards;
+    -webkit-animation: fadeIn1 1s forwards;
+}
+.modal-text-div{
+    display: flex;
+    margin-top: 30px;
+}
+.modal-close{
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 1.8rem;
+    position: absolute;
+    top:0;
+    right: 0;
 }
 .modal a{
     color: rgb(165, 63, 58);
@@ -153,20 +173,22 @@
 .modal-title h3{
     margin-left: 10px;
     text-align: right;
-    font-weight: bold;
+    color: rgb(27, 27, 27);
+    font-weight: normal;
     font-size: 1.2rem;
 }
 .state-value h3{
+    color: rgb(167, 64, 58);
     margin-left: 10px;
-    font-weight: normal;
+    font-weight: bold;
     text-align: left;
     font-size: 1.2rem;
 }
 .picture-modal{
     animation-fill-mode: forwards;
-    animation-name: fadeIn1 2s;
-    -moz-animation:  fadeIn1 2s forwards;
-    -webkit-animation: fadeIn1 2s forwards;
+    animation-name: fadeIn1 1s;
+    -moz-animation:  fadeIn1 1s forwards;
+    -webkit-animation: fadeIn1 1s forwards;
 }
 
 .big-oaks-modal{
