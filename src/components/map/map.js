@@ -39,8 +39,8 @@ onMapClicked = (props) => {
               className="mapstuff"
               google={this.props.google}
               initialCenter={{
-                lat: 36.0822,
-                lng: -94.1719
+                lat: 36.429205, 
+                lng: - 94.055407
               }}
               disableDefaultUI={true}
               zoom={10}
@@ -140,7 +140,7 @@ onMapClicked = (props) => {
                   style={{height: '100px', width: '150px'}}
                   name={"Big Oaks Self-Storage"}
                   title={'Big Oaks Self-Storage'}
-                  position={{lat: 36.0822, lng: - 94.1719}}
+                  position={{lat: 36.429205, lng: - 94.055407}}
                   icon={{
                     scaledSize: new google.maps.Size(30,50),
                     url:MarkerLogo
@@ -152,11 +152,11 @@ onMapClicked = (props) => {
               <div className="infowindow">
               {/* HARD CODED USER INFO FOR VIEW TEST */}
                 <img style={{height: '50px', width: '80px' }} src={ BigOaksLarge } alt="Big-Oaks-Storage-Logo" />
-                <h3>Fayetteville, AR</h3>
+                <h3>Garfield, AR</h3>
                 <a 
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.google.com/maps/dir//Fayetteville,+AR/@36.0692663,-94.2322824,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87c96f7b2fb53e9d:0x4519f069fcb4c8cf!2m2!1d-94.1718542!2d36.082156">
+                href="https://www.google.com/maps/dir//14637+US-62,+Township+1,+AR/@36.4287005,-94.0576389,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87c9226c407525e9:0x82fd607edcfa1d40!2m2!1d-94.0554502!2d36.4286962">
                 <button className="map-button">GET DIRECTIONS</button>
                 </a>
               </div>

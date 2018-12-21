@@ -18,39 +18,51 @@ render () {
         <h5>Premier Storage Facilities in NWA For All Types of Self-Storage</h5>
         </div>
         <div id="about" className="card-container">
-        <div data-aos="flip-right" className="card">
-        <FaUserPlus className="card-icons" />
-        <h3>Convenience</h3>
+        <div data-aos="flip-right"  className="card">
+        <FaMoneyBill className="card-icons" />
+        <h3>BEST in Self-Storage</h3>
         <div className="card-list">
-            <li>Climate Control</li>
+            <li>Best Competitive Rates in NWA for All Size Units  </li>
             <p></p>
-            <li>Full Frontage Road Wide Entry Gates </li>
+            <li>Larger Oversized Units with Insulated Roofs</li>
             <p></p>
-            <li>Convenient Pick-Up & Drop-Off</li>
+            <li>Larger Door Sizes for Boat & RV Storage</li>
+            <p></p>
+            <li>New Modern Facilities</li>
+            <p></p>
+            <li>"Golden Rule" Customer Service </li>
             <p></p>
             </div>
         </div>
         <div data-aos="flip-right" data-aos-delay="400" className="card">
-        <FaMoneyBill className="card-icons" />
-        <h3>Competitive Rates</h3>
+        <FaUserPlus className="card-icons" />
+        <h3>Available Storage</h3>
         <div className="card-list">
-            <li>Best Competitive Rates in NWA  </li>
+            <li>Boat Storage</li>
             <p></p>
-            <li>"Golden Rule" Customer Service </li>
+            <li>RV Storage</li>
             <p></p>
-            <li>New Modern Facilities</li>
+            <li>Residential</li>
+            <p></p>
+            <li>Climate-Control</li>
+            <p></p>
+            <li>Mobile Storage (Coming Soon)</li>
             <p></p>
             </div>
         </div>
         <div data-aos="flip-right" data-aos-delay="800" className="card">
         <FaUserSecret className="card-icons" />
-        <h3>Secure</h3>
+        <h3>Security & Convenience</h3>
         <div className="card-list">
+            <li>Simple Convenience with Easy & Open Access</li>
+            <p></p>
+            <li>Gated with Surveillance Cameras</li>
+            <p></p>
+            <li>Full Frontage Road Access with Wide Entry Gates</li>
+            <p></p>
             <li>Individual Access Codes</li>
             <p></p>
-            <li>Gated & Surveillance Cameras</li>
-            <p></p>
-            <li>Large Units with Insulated Roofs</li>
+            <li>Convenient Pick-up & Drop-off</li>
             <p></p>
             </div>
         </div>
@@ -78,21 +90,21 @@ render () {
         <div className="storage-photos">
         <div  className="boat-div">
         <h2 data-aos="fade-right" data-aos-delay="1000" >Boats</h2>
-        <img data-aos="fade-down"  src={Boat} alt="boat storage unit" className="storage-unit-boat" />
+        <img data-aos="fade-up"  src={Boat} alt="boat storage unit" className="storage-unit-boat" />
         <div className="slide-info">
         <p>Sign a one year lease with first month free storage</p>
         </div>
         </div>
         <div className="commercial-div">
         <h2 data-aos="fade-right" data-aos-delay="1500">Commercial</h2>
-        <img   data-aos="fade-down" data-aos-delay="00"src={Commercial} alt="commercial storage unit" id="commercial" className="storage-unit-commercial" />
+        <img   data-aos="fade-up" data-aos-delay="00"src={Commercial} alt="commercial storage unit" id="commercial" className="storage-unit-commercial" />
         <div className="slide-info">
         <p>No security deposit required</p>
         </div>
         </div>
         <div  className="rv-div">
         <h2 data-aos="fade-right" data-aos-delay="2000"> RV's</h2>
-        <img data-aos="fade-down" data-aos-delay="0"src={RV} alt="rv storage unit" id="rv" className="storage-unit-rv" />
+        <img data-aos="fade-up" data-aos-delay="0"src={RV} alt="rv storage unit" id="rv" className="storage-unit-rv" />
         <div className="slide-info">
         <p>We are the competitive price leader in NW Arkansas</p>
         </div>

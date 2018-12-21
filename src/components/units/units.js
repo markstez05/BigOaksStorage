@@ -50,6 +50,7 @@ componentDidMount = () =>{
         <h3>Floor Space: </h3>
         <h3>Door Size: </h3>
         </div>
+
         <div className="state-value">
         <h3>{this.state.price}</h3>
         <h3>{this.state.size}</h3>
@@ -78,7 +79,7 @@ componentDidMount = () =>{
       <div className="unit-container">
       <div className="display-container">
       <div className="unit-display">
-      <div>{picture}</div>
+      <div ata-aos="fade-up">{picture}</div>
       {modal}
       </div>
        <div className="price-card-div1">
@@ -223,7 +224,7 @@ componentDidMount = () =>{
         <p><strong>$30</strong> per month</p>
         <div className="price-list2">
         <div className="cost-title">
-        <p>Outside Trailer:</p>
+        <p>Trailer:</p>
         <p>RV:</p>
         </div>
         <div className="cost-value">

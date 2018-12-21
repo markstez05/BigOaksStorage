@@ -26,8 +26,23 @@ render () {
         </div>
         <div className="price-card-div">
         <div  data-aos="flip-right" className="price-card">
+        <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size" />
+        <strong>$30</strong> per month
+        <div className="price-list">
+        <div className="cost-title">
+        <p>Outside Trailer:</p>
+        <p>RV:</p>
+        </div>
+        <div className="cost-value">
+            <p>Parking</p>
+            <p>Parking</p>
+        </div>
+        </div>
+        <button className="price-button">RESERVE TODAY</button>
+        </div>
+        <div  data-aos="flip-right" className="price-card1">
         <img src={ UnitSize } alt="Storage Unit Size" className="unit-size" />
-        <strong>$50</strong>
+        <strong>$50</strong>per month
         <div className="price-list">
         <div className="cost-title">
         <p>Floor Space:</p>
@@ -40,9 +55,9 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div  data-aos="flip-right" data-aos-delay="400" className="price-card1">
+        <div  data-aos="flip-right" data-aos-delay="400" className="price-card2">
         <img src={ UnitSize1 } alt="Storage Unit Size" className="unit-size" />
-        <strong>$60</strong>
+        <strong>$60</strong>per month
         <div className="price-list">
         <div className="cost-title">
         <p>Floor Space:</p>
@@ -55,9 +70,9 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div data-aos="flip-right" data-aos-delay="800" className="price-card2">
+        <div data-aos="flip-right" data-aos-delay="800" className="price-card3">
         <img src={ UnitSize2 } alt="Storage Unit Size" className="unit-size" />
-        <strong>$75</strong>
+        <strong>$75</strong>per month
         <div className="price-list">
         <div className="cost-title">
         <p>Floor Space:</p>
@@ -70,7 +85,7 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div data-aos="flip-right" data-aos-delay="1200" className="price-card3">
+        {/* <div data-aos="flip-right" data-aos-delay="1200" className="price-card3">
         <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size" />
         <strong>$90</strong>
         <div className="price-list">
@@ -84,7 +99,7 @@ render () {
         </div>
         </div>
         <button className="price-button">RESERVE TODAY</button>
-        </div>
+        </div> */}
         </div>
        <Link to="/units"> <button className="landing-button1">MORE UNITS</button></Link>
        <FaArrowUp 

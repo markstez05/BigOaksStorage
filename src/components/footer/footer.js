@@ -17,7 +17,7 @@ class Footer extends Component {
         <FooterMap />
             <div className="contact-us">
             <h2>Contact Us</h2>
-            <h5><strong>Address: </strong>  123 Street Fayetteville, AR</h5>
+            <h5><strong>Address: </strong>14637 E. Hwy 62, Garfield, AR 72732</h5>
             <h5><strong>Phone: </strong> 
             <a
               target="_blank"
