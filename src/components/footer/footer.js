@@ -18,12 +18,12 @@ class Footer extends Component {
             <div className="contact-us">
             <h2>Contact Us</h2>
             <h5><strong>Address: </strong>14637 E. Hwy 62, Garfield, AR 72732</h5>
-            <h5><strong>Phone: </strong> 
+            <h5><strong>Email: </strong> 
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="tel:1-555-555-5555"
-              > 555-555-5555</a></h5>
+              href="mailto:info@bigoaksstorage.com"
+              >info@bigoaksstorage.com</a></h5>
             <div className="footer-media">
             <a
               className="map-a"

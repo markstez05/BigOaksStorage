@@ -5,6 +5,7 @@
     height: 300px;
     z-index: 2;
     margin-top: -10px;
+
 }
 .map-button{
     color: white;
@@ -21,11 +22,12 @@
 
 @media (max-width: 630px){
     .map-container {
+        padding-top: 15px;
         overflow-y: hidden;
         overflow: hidden;
         position: relative;
         z-index: 2;
-        transform: scale(.9);
+        transform: scale(1);
         margin: auto;
     }
 }
@@ -36,6 +38,6 @@
         position: relative;
         margin: auto;
         z-index: 2;
-        transform: scale(.9);
+        transform: scale(1);
     }
 }

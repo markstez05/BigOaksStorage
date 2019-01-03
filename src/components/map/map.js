@@ -157,7 +157,7 @@ onMapClicked = (props) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.google.com/maps/dir//14637+US-62,+Township+1,+AR/@36.4287005,-94.0576389,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x87c9226c407525e9:0x82fd607edcfa1d40!2m2!1d-94.0554502!2d36.4286962">
-                <button className="map-button">GET DIRECTIONS</button>
+                <button className="map-button">DIRECTIONS</button>
                 </a>
               </div>
           </InfoWindow>

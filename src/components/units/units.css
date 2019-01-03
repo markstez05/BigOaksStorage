@@ -109,7 +109,7 @@
 }
 .cost-title p{
     font-weight: bold;
-    font-style: italic;
+    font-style: normal;
     text-align: right;
 }
 .cost-value{
@@ -239,7 +239,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 3500px;
+        height: 400px;
+        padding: 5px;
         max-width: 3500px;
         width: 100%;
     }
@@ -305,5 +306,11 @@
         animation-name: fadeIn1 1s;
         -moz-animation:  fadeIn1 1s forwards;
         -webkit-animation: fadeIn1 1s forwards;
+    }
+    .big-oaks-logo{
+        max-width: 300px;
+        width: 60%;
+        height: 60%;
+        max-height: 200px;
     }
 }

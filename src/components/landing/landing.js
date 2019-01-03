@@ -15,8 +15,8 @@ render () {
         <div id="home" className="landing-container">
         <div className="opac">
         <div className="photo-text">
-        <img src={ BigOaksLarge } alt="Big-Oaks-Storage-Logo-Large" className="oaks-big"/>
         <h1>Welcome to Big Oaks Self-Storage!</h1>
+        <img src={ BigOaksLarge } alt="Big-Oaks-Storage-Logo-Large" className="oaks-big"/>
         <h5>We offer premier storage facilities in NWA for all types of self-storage including Boats, RV’s, Residential, Commercial, Climate Control and Warehouse storage.  Our facilities are designed to accommodate EASY ACCESS with full frontage road access and wide open spaces for turn around.  We are conveniently located on Highway 62, just minutes north of Rogers, Arkansas</h5>
         <button onClick={this.scrollAbout}className="landing-button">FIND OUT MORE</button>
         </div>

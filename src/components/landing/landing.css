@@ -13,15 +13,17 @@
     top: 0;
     width: 100%;
     height: 772px;
-    background-color:rgba(12, 12, 12, 0.192);
+    background-color:rgba(145, 145, 145, 0.096);
     z-index: 2;
 }
 
 .oaks-big{
+    /* border: 1px solid red; */
     opacity: 0;
-    width: 460px;
-    height: 300px;
+    width: 650px;
+    height: 400px;
     margin-top: -30px;
+    margin-bottom: 35px;
     margin-right: 100px;
     animation-fill-mode: forwards;
     animation-name: fadeIn 1.5s;
@@ -31,12 +33,14 @@
 .photo-text{
     color:white;
     font-size: 2rem;
-    margin-top: 150px;
+    padding: 5px;
+    /* width: 100%; */
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-self: auto;
-    align-content: center;
+    /* align-self: auto; */
+    /* align-content: center; */
     align-items: center;
 
 }
@@ -49,7 +53,8 @@
     -webkit-animation: fadeInLeft 1.5s forwards;
 }
 .photo-text h5{
-    width: 70%;
+    width: 80%;
+    max-width: 1000px;
     opacity: 0;
     animation-delay: 1.7s;
     animation-fill-mode: forwards;
@@ -59,7 +64,7 @@
     margin-top: -20px;
     font-size: 1.1rem;
     font-weight: normal;
-    font-style: italic;
+    /* font-style: italic; */
 }
 .landing-button{
     height: 60px;
@@ -224,6 +229,17 @@
     }
   }
   /* Media Queries */
+  @media (max-width: 1100px){
+    .photo-text h1{
+        opacity: 0;
+        font-size: 3.8rem;
+        font-style: italic;
+        animation-fill-mode: forwards;
+        animation-name: fadeInLeft 1.5s;
+        -moz-animation:  fadeInLeft 1.5s forwards;
+        -webkit-animation: fadeInLeft 1.5s forwards;
+    }
+  }
 @media (max-width: 1020px){
     .opac{
         height: 605px;
@@ -231,6 +247,62 @@
     .fall{
         height: 605px;
     }
+    .oaks-big{
+        opacity: 0;
+        width: 440px;
+        height: 250px;
+        margin-right: 100px;
+        animation-fill-mode: forwards;
+        animation-name: fadeIn 1.5s;
+        -moz-animation:  fadeIn 1.5s forwards;
+        -webkit-animation: fadeIn 1.5s forwards;
+    }
+    .photo-text{
+        color:white;
+        font-size: 2rem;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: auto;
+        align-content: center;
+        align-items: center;
+    }
+    .photo-text h1{
+        font-size: 2.5rem; 
+    }
+    .photo-text h5{
+        width: 95%;
+        max-width: 1000px;
+        opacity: 0;
+        animation-delay: 1.7s;
+        animation-fill-mode: forwards;
+        animation-name: fadeInDown 1.5s;
+        -moz-animation:  fadeInDown 1.5s forwards;
+        -webkit-animation: fadeInDown 1.5s forwards;
+        margin-top: -20px;
+        font-size: 1rem;
+        font-weight: normal;
+        font-style: italic;
+    }
+}
+@media (max-width: 700px){
+    .photo-text h5{
+        width: 95%;
+        max-width: 1000px;
+        opacity: 0;
+        animation-delay: 1.7s;
+        animation-fill-mode: forwards;
+        animation-name: fadeInDown 1.5s;
+        -moz-animation:  fadeInDown 1.5s forwards;
+        -webkit-animation: fadeInDown 1.5s forwards;
+        margin-top: -20px;
+        font-size: .8rem;
+        font-weight: normal;
+        font-style: italic;
+    }
+}
+@media (max-width: 650px){
     .oaks-big{
         opacity: 0;
         width: 240px;
@@ -241,23 +313,6 @@
         -moz-animation:  fadeIn 1.5s forwards;
         -webkit-animation: fadeIn 1.5s forwards;
     }
-    .photo-text{
-        color:white;
-        font-size: 2rem;
-        margin-top: 150px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-self: auto;
-        align-content: center;
-        align-items: center;
-    }
-    .photo-text h1{
-        font-size: 3rem; 
-    }
-}
-@media (max-width: 650px){
-
     .logobig{
         border-radius: 100%;
         margin-top: 110px;
@@ -269,6 +324,18 @@
         animation-fill-mode: forwards;  
     }
     .photo-text h1{
-        font-size: 2.3rem; 
+        font-size: 1.9rem; 
+    }
+    .photo-text{
+        color:white;
+        font-size: 2rem;
+        margin-top: 80px;
+        display: flex;
+        height: 80%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-self: auto;
+        align-content: center;
+        align-items: center;
     }
 }

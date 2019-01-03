@@ -59,12 +59,12 @@ componentDidMount = () =>{
         </div>
         </div>
         </div>
-        <h1> Call
+        <h1>Email To Reserve
         <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="tel:1-555-555-5555"
-              > 555-555-5555</a> To Reserve</h1>
+         target="_blank"
+         rel="noopener noreferrer"
+         href="mailto:info@bigoaksstorage.com"
+              > info@bigoaksstorage.com</a></h1>
         </div>
       );
           } else {

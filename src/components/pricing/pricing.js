@@ -22,7 +22,7 @@ render () {
         <div className="services">
         <h1>UNIT PRICING</h1>
         <div className="bar"></div>
-        <h5>Unit Sizes & Pricing with Insulated Roofs, Concrete Floors, Roll-up Doors</h5>
+        <h5>Premier self-storage units conveniently located in Northwest Arkansas</h5>
         </div>
         <div className="price-card-div">
         <div  data-aos="flip-right" className="price-card">
