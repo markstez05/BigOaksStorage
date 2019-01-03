@@ -7,13 +7,15 @@
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);   
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 .new{
-    width: 90%;
     display: flex;
-    flex-direction: row;
-    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 95%;
+    max-width: 1300px;
 }
 .new p{ 
     text-align: left;
@@ -22,13 +24,40 @@ padding-bottom: 20px;
     font-size: 1.3rem;
 }
 .storage-photo3{
-    width: 800px;
-    height: 500px;
+    width: 650px;
+    height: 400px;
     margin-left: 30px;
 }
 .second-text{
     text-align: left;
-    width: 90%;
+    width: 100%;
     font-size: 1.2rem;
     padding-bottom: 10px;
+}
+.second-text p{
+    margin-left: 15px;
+}
+.third-text{
+    text-align: left;
+    height: 100%;
+    padding: 15px;
+    margin-top:-5px;
+}
+@media (max-width: 1150px){
+.storage-photo3{
+    width: 600px;
+    height: 300px;
+    margin-left: 10px;
+}
+}
+@media (max-width: 1020px){
+.new h1{
+    display: flex;
+    justify-content: center;
+}
+}
+@media (max-width: 500px){
+.new p {
+  font-size: 1.05rem;
+}
 }
