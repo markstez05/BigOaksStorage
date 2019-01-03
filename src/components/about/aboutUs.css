@@ -1,0 +1,9 @@
+.about-container{
+    margin-top: 70px;
+    display: flex;
+    height: 100vh;
+    padding: 15px;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250);
+    z-index: 1;   
+}

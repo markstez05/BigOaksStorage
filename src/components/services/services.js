@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FaUserPlus, FaMoneyBill, FaUserSecret } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import StorageContainer from "../images/oaks.jpg"
 import RV from "../images/RV Storage.png";
 import Boat from "../images/Boat Storage.png";
@@ -77,7 +78,7 @@ render () {
         <img src={ StorageContainer} alt="NWA Storage Unit" className="storage-photo" />
         <div className="slide-info2">
         <p>"It’s important to us as a business that we treat our environment well."</p>
-        <button className="price-button1">MORE INFO</button>
+        <Link to="/about"><button className="price-button1">MORE INFO</button></Link>
         </div>
         </div>
         </div>

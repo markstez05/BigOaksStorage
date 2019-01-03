@@ -17,10 +17,12 @@
 .price-card-div{
     margin: auto;
     margin-top: 100px;
-    width: 1200px;
+    width: 1100px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
+    /* align-content: space-around; */
 }
 .price-card{
     background-color: white;
@@ -28,7 +30,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 280px;
+    margin-top:10px;
+    margin-bottom: 60px;
+    width: 320px;
     border: 1px solid rgba(235, 235, 235, 0.699);
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
 }
@@ -60,8 +64,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 280px;
-    height: 280px;
+    width: 320px;
+     margin-top:10px;
+    margin-bottom: 60px;
     border: 1px solid rgba(235, 235, 235, 0.699);
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
 }
@@ -77,8 +82,9 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 280px;
-    height: 300px;
+    width: 320px;
+  margin-top:10px;
+    margin-bottom: 60px;
     border: 1px solid rgba(235, 235, 235, 0.699);
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
 }
@@ -94,8 +100,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 280px;
-    height: 320px;
+    width: 320px;
+
     border: 1px solid rgba(235, 235, 235, 0.699);
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
 }
@@ -111,7 +117,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    width: 280px;
+    width: 320px;
     border: 1px solid rgba(235, 235, 235, 0.699);
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
 }

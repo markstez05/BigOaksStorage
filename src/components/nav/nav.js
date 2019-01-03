@@ -14,7 +14,7 @@ class NavBar extends Component{
             <div className="navbar2">
             <Link to='/'><p className="navbarA">HOME</p></Link>
             <Link to='/units'><p className="navbarA">UNITS</p></Link>
-            <p className="navbarA">ABOUT</p>
+          <Link to='/about'><p className="navbarA">ABOUT</p></Link>  
            <p className="navbarA">FAQ</p>
             </div>
             <div className="dropdown">
@@ -25,7 +25,7 @@ class NavBar extends Component{
     <div id="dropdown-content" className="dropdown-content">
       <Link to='/'><FaHome className="nav-icons"/>HOME</Link>
       <Link to='/units'><FaArchive className="nav-icons"/>UNITS</Link>
-      <Link to='/'><FaUser className="nav-icons" />ABOUT</Link>
+      <Link to='/about'><FaUser className="nav-icons" />ABOUT</Link>
       <Link to='/'><FaQuestion className="nav-icons"/>FAQ</Link>
     </div>
   </div> 

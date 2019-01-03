@@ -6,6 +6,7 @@ import Services from "./components/services/services";
 import Pricing from "./components/pricing/pricing";
 import Footer from "./components/footer/footer.js";
 import Units from "./components/units/units.js";
+import AboutUs from "./components/about/aboutUs.js";
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import './App.css';
@@ -24,6 +25,7 @@ class App extends Component {
       <div className="App">
       <div className="big-oaks-storage-bg" ></div>
       <Route path ='/'  component={Nav}/>
+      <Route exact path='/about' component={AboutUs} />
       <Route exact path ='/' component={Landing}/>
       <Route exact path ='/' component={Services}/>
       <Route exact path ='/' component={Pricing}/>
