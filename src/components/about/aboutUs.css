@@ -1,9 +1,34 @@
 .about-container{
     margin-top: 70px;
     display: flex;
-    height: 100vh;
-    padding: 15px;
+    min-height: 760px;
+    width: 100%;
     flex-direction: column;
-    background-color: rgb(250, 250, 250);
-    z-index: 1;   
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);   
+padding-bottom: 20px;
+}
+.new{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+.new p{ 
+    text-align: left;
+    padding: 5px;
+    line-height: 1.5;
+    font-size: 1.3rem;
+}
+.storage-photo3{
+    width: 800px;
+    height: 500px;
+    margin-left: 30px;
+}
+.second-text{
+    text-align: left;
+    width: 90%;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
 }
