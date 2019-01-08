@@ -23,7 +23,7 @@ render () {
         <div className="services">
         <h1>UNIT PRICING</h1>
         <div className="bar"></div>
-        <h5>Premier self-storage units conveniently located in Northwest Arkansas</h5>
+        <p id="tag-alt" className="tag-alt">Premier self-storage units conveniently located in Northwest Arkansas</p>
         </div>
         <div className="price-card-div">
         <div  data-aos="flip-right" className="price-card">

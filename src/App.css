@@ -11,13 +11,13 @@
 }
 .big-oaks-storage-bg{
   background-image: url("./components/images/StorageStock.png");
+  /* background-size: cover; */
   width: 100%;
-  background-color: rgb(0, 0, 0);
-  height: 772px;
+  height: 100%;
   position: fixed;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 772px;
+  background-size: 100% 100%;
   z-index: -1;
 }
 

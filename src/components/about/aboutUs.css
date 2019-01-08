@@ -1,13 +1,14 @@
 .about-container{
     margin-top: 70px;
     display: flex;
-    min-height: 760px;
+    min-height: 960px;
     width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);   
-    padding-bottom: 20px;
+    padding-bottom: 0px;
+    color: rgb(94, 94, 94);
 }
 .new{
     display: flex;
@@ -26,28 +27,34 @@
 .storage-photo3{
     width: 650px;
     height: 400px;
-    margin-left: 30px;
+    margin-left: 10px;
+    padding-top: 0px;
+
 }
 .second-text{
     text-align: left;
     width: 100%;
     font-size: 1.2rem;
     padding-bottom: 10px;
+
+    margin-bottom: -50px;
 }
 .second-text p{
     margin-left: 15px;
 }
 .third-text{
+
     text-align: left;
-    height: 100%;
+    /* height: 80%; */
     padding: 15px;
-    margin-top:-5px;
+    margin-top: 5px;
 }
 @media (max-width: 1150px){
 .storage-photo3{
     width: 600px;
     height: 300px;
     margin-left: 10px;
+    align-self: flex-end;
 }
 }
 @media (max-width: 1020px){
@@ -58,6 +65,6 @@
 }
 @media (max-width: 500px){
 .new p {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
 }
 }

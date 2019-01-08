@@ -7,6 +7,7 @@ import Pricing from "./components/pricing/pricing";
 import Footer from "./components/footer/footer.js";
 import Units from "./components/units/units.js";
 import AboutUs from "./components/about/aboutUs.js";
+
 import AOS from 'aos'
 import 'aos/dist/aos.css';
 import './App.css';
