@@ -35,7 +35,7 @@ render () {
             <p></p>
             </div>
         </div>
-        <div data-aos="flip-right" data-aos-delay="400" className="card">
+        <div data-aos="flip-right" data-aos-delay="100" className="card">
         <FaUserPlus className="card-icons" />
         <h3>Available Storage</h3>
         <div className="card-list">
@@ -51,7 +51,7 @@ render () {
             <p></p>
             </div>
         </div>
-        <div data-aos="flip-right" data-aos-delay="800" className="card">
+        <div data-aos="flip-right" data-aos-delay="200" className="card">
         <FaUserSecret className="card-icons" />
         <h3>Security & Convenience</h3>
         <div className="card-list">

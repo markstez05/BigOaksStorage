@@ -84,9 +84,12 @@
     display: flex;
     justify-content: center;
     background-color: white;
+    border-bottom: 3px solid #773528;
+    /* border-top: 3px solid #773528; */
     width: 100%;
     height: 115px;
-    border-bottom: 1.1px solid rgba(201, 201, 201, 0.37);
+    border-bottom: 2px solid rgba(201, 201, 201, 0.37);
+      border-top: 2px solid rgba(201, 201, 201, 0.37);
 }
 .bottom-bar{
     display: flex;

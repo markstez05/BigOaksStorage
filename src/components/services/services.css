@@ -3,13 +3,14 @@
     width: 100%;
     flex-direction: column;
     justify-content: center;
-    background-color: #F7F8FA;
+    background-color: rgb(247, 248, 250);
+     border-bottom: 2px solid rgba(201, 201, 201, 0.37);
     color: black;
     z-index: 1;
     line-height: 1.5;
 }
 .services{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 .services h1{
     font-weight: normal;
@@ -44,16 +45,21 @@
     border: 1px solid rgba(214, 214, 214, 0.281);
     width: 420px;
     padding: 10px;
-    padding-bottom: 25px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     border-bottom: 5px solid rgba(212, 212, 212, 0.301);
     background-color: white;
 }
+.card:hover{
+        border-bottom: 5px solid #BA433D;
+           transition: ease-in .3s;
 
+}
 .card:hover p{
     background-color: #BA433D;
     transition: ease-in .3s;
+
 }
 .card h3{
     color: #BA433D;
@@ -87,7 +93,7 @@
     background-color: rgba(212, 212, 212, 0.301);
 }
 .card-icons{
-    margin-top: 30px;
+    margin-top: 10px;
     width: 60px;
     height: 60px;
     color: #BA433D;

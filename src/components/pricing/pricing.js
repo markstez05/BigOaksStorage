@@ -26,7 +26,7 @@ render () {
         <p id="tag-alt" className="tag-alt">Premier self-storage units conveniently located in Northwest Arkansas</p>
         </div>
         <div className="price-card-div">
-        <div  data-aos="flip-right" className="price-card">
+        <div  data-aos="flip-right"  className="price-card">
         <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size" />
         <strong>$30</strong> per month
         <div className="price-list">
@@ -41,7 +41,7 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div  data-aos="flip-right" className="price-card1">
+        <div  data-aos="flip-right" data-aos-delay="100" className="price-card1">
         <img src={ UnitSize } alt="Storage Unit Size" className="unit-size" />
         <strong>$50</strong>per month
         <div className="price-list">
@@ -56,7 +56,7 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div  data-aos="flip-right" data-aos-delay="400" className="price-card2">
+        <div  data-aos="flip-right" data-aos-delay="200" className="price-card2">
         <img src={ UnitSize1 } alt="Storage Unit Size" className="unit-size" />
         <strong>$60</strong>per month
         <div className="price-list">
@@ -71,7 +71,7 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div data-aos="flip-right" data-aos-delay="800" className="price-card3">
+        <div data-aos="flip-right" data-aos-delay="100" className="price-card3">
         <img src={ UnitSize2 } alt="Storage Unit Size" className="unit-size" />
         <strong>$75</strong>per month
         <div className="price-list">
@@ -86,7 +86,7 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-        <div data-aos="flip-right" data-aos-delay="1200" className="price-card3">
+        <div data-aos="flip-right" data-aos-delay="200" className="price-card3">
         <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size" />
         <strong>$90</strong>per month
         <div className="price-list">
@@ -101,7 +101,7 @@ render () {
         </div>
         <button className="price-button">RESERVE TODAY</button>
         </div>
-                <div data-aos="flip-right" data-aos-delay="1200" className="price-card3">
+                <div data-aos="flip-right" data-aos-delay="400" className="price-card3">
         <img src={ UnitSize4 } alt="Storage Unit Size" className="unit-size" />
         <strong>$160</strong>per month
         <div className="price-list">

@@ -49,7 +49,7 @@ onMapClicked = (props) => {
                 marginTop: '20px',
                 width: '300px',
                 height: '250px',
-                border: "4px solid #BA433D",
+                border: "3px solid #773528",
                 borderRadius: "3px",
               }}
               styles= {[
