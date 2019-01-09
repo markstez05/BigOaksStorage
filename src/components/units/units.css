@@ -25,7 +25,7 @@
 .unit-display{
     /* background-image: url("../images/StorageStock.png");
     background-size: 100% 100%; */
-    background-color: rgb(182, 180, 180);
+    background-color: rgb(247, 247, 247);
     padding-right: 20px;
     display: flex;
     margin-left: 0px;
@@ -39,7 +39,7 @@
     box-shadow: inset 1px 1px 1px 1px rgb(139, 139, 139);
     border-bottom: 1px solid rgba(192, 192, 192, 0.699);
     padding-bottom: 10px;
-    background-color: rgba(245, 245, 245, 0.993);
+    background-color: rgba(245, 245, 245, 0.034);
     padding-right: 80px;
     max-width: 220px;
     width:  100%;
@@ -76,8 +76,8 @@
     cursor: pointer;
     transform: scale(1.08);
     transition: all ease-in-out .3s;
-    background-color: rgba(186, 67, 61, 0.76);
-    box-shadow: 2px 3px 5px 1px rgba(235, 235, 235, 0.699);
+    background-color: rgba(186, 67, 61, 0.938);
+    box-shadow: 2px 3px 5px 1px rgba(34, 34, 34, 0.699);
     border-bottom: 5px solid rgb(121, 45, 41);
     color: white;
 }
@@ -90,16 +90,9 @@
 .price-card-alt:hover strong{
     color: rgb(10, 10, 10);
 }
-/* .unit-size1{
-    position: absolute;
-    border-radius: 100%;
-    background-color: white;
-    height: 80px;
-    width: 80px;
-    padding: 3px;
-    border: 2px solid rgb(221, 221, 221);
-    transform: translate(-150%, -65%)
-} */
+.picture-modal h2{
+    color: rgb(73, 73, 73);
+}
 .unit-size1{
     border-radius: 100%;
     background-color: white;
@@ -140,9 +133,9 @@
     align-items: center;
     justify-content: center;
     animation-fill-mode: forwards;
-    animation-name: fadeIn1 1s;
-    -moz-animation:  fadeIn1 1s forwards;
-    -webkit-animation: fadeIn1 1s forwards;
+    animation-name: fadeIn1 .5s;
+    -moz-animation:  fadeIn1 .5s forwards;
+    -webkit-animation: fadeIn1 .5s forwards;
 }
 .modal-text-div{
     display: flex;

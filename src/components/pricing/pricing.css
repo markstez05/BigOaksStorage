@@ -58,7 +58,7 @@
 }
 .price-card:hover{
     transform: translate(0, -1%);
-    transition: all ease-in-out .3s;
+    transition: all ease-in-out .1s;
     box-shadow: 2px 3px 5px 1px rgba(87, 87, 87, 0.699);
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
@@ -76,7 +76,7 @@
 }
 .price-card1:hover{
     box-shadow: 2px 3px 5px 1px rgba(87, 87, 87, 0.699);
-    transition: all ease-in-out .4s;
+    transition: all ease-in-out .1s;
     transform: translate(0, -1%);
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
@@ -94,7 +94,7 @@
 }
 .price-card2:hover{
    box-shadow: 2px 3px 5px 1px rgba(87, 87, 87, 0.699);
-    transition: all ease-in-out .4s;
+    transition: all ease-in-out .1s;
     transform: translate(0, -1%);
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
@@ -112,7 +112,7 @@
 .price-card3:hover{
 box-shadow: 2px 3px 5px 1px rgba(87, 87, 87, 0.699);
     transform: translate(0, -1%);
-    transition: all ease-in-out .4s;
+    transition: all ease-in-out .1s;
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 .price-card4{
@@ -128,7 +128,7 @@ box-shadow: 2px 3px 5px 1px rgba(87, 87, 87, 0.699);
 .price-card4:hover{
 box-shadow: 2px 3px 5px 1px rgba(87, 87, 87, 0.699);
     transform: translate(0, -1%);
-    transition: all ease-in-out .4s;
+    transition: all ease-in-out .1s;
     border-bottom: 5px solid rgba(186, 67, 61, 0.699);
 }
 strong{
