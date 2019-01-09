@@ -90,7 +90,7 @@ componentDidMount = () =>{
         <div 
         onClick={() => {
           this.setState({
-            modal: !this.state.modal,
+            modal: !this.state.picture,
             price: "$50 per month",
             size: " 12' x 10'",
             floorSpace: "120 sq. ft.",
@@ -115,7 +115,8 @@ componentDidMount = () =>{
         <div 
         onClick={() => {
           this.setState({
-            modal: !this.state.modal,
+            // modal: !this.state.modal,
+            modal: !this.state.picture,
             price: "$60 per month",
             size: " 12' x 15'",
             floorSpace: "180 sq. ft.",
@@ -140,7 +141,8 @@ componentDidMount = () =>{
         <div 
             onClick={() => {
               this.setState({
-                modal: !this.state.modal,
+                // modal: !this.state.modal,
+                modal: !this.state.picture,
                 price: "$75 per month",
                 size: " 12' x 20'",
                 floorSpace: "240 sq. ft.",
@@ -164,7 +166,8 @@ componentDidMount = () =>{
         <div 
             onClick={() => {
               this.setState({
-                modal: !this.state.modal,
+                // modal: !this.state.modal,
+                modal: !this.state.picture,
                 price: "$90 per month",
                 size: " 12' x 30'",
                 floorSpace: "360 sq. ft.",
@@ -188,7 +191,8 @@ componentDidMount = () =>{
         <div 
             onClick={() => {
               this.setState({
-                modal: !this.state.modal,
+                // modal: !this.state.modal,
+                modal: !this.state.picture,
                 price: "$160 per month",
                 size: " 14' x 40'",
                 floorSpace: "560 sq. ft.",
@@ -212,7 +216,8 @@ componentDidMount = () =>{
         <div 
             onClick={() => {
               this.setState({
-                modal: !this.state.modal,
+                // modal: !this.state.modal,
+                modal: !this.state.picture,
                 price: "$30 per month",
                 size: "Outside Parking",
                 floorSpace: "Parking",
