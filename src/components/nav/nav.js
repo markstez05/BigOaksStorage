@@ -4,6 +4,17 @@ import "./nav.css";
 import { FaTimes, FaBars, FaArchive , FaHome, FaUser, FaQuestion } from "react-icons/fa";
 import BigOaksTitleLogo from "../../components/images/BigOaksTitleLogo.png"
 class NavBar extends Component{
+ 
+  click = () =>{
+    document.getElementById("dropdown-content").style.display = "block";
+    document.getElementById("bars").style.display = "none";
+    document.getElementById("x").style.display = "block";
+  }
+  clickx = () =>{
+    document.getElementById("dropdown-content").style.display = "none";
+    document.getElementById("bars").style.display = "block";
+    document.getElementById("x").style.display = "none";
+  }
 
     render(){
         return(
