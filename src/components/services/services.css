@@ -409,8 +409,8 @@
         justify-self: center;
         max-width: 700px;
         font-size: .95rem;
-        padding-bottom: 30px;
-        padding-top: 30px;
+        margin-bottom: 30px;
+        margin-top: -10px;
         color: rgb(44, 44, 44);
     }
     .card{
