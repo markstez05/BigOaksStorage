@@ -90,28 +90,28 @@ render () {
         </div>
         <div className="storage-photos">
         <div  className="boat-div">
-        <h2 data-aos="fade-right" data-aos-delay="1000" >Boats</h2>
+        <h2 data-aos="fade-right" data-aos-delay="100" >Boats</h2>
         <img data-aos="fade-up"  src={Boat} alt="boat storage unit" className="storage-unit-boat" />
         <div className="slide-info">
         <p>Sign a one year lease with first month free storage</p>
         </div>
         </div>
         <div className="commercial-div">
-        <h2 data-aos="fade-right" data-aos-delay="1500">Commercial</h2>
+        <h2 data-aos="fade-right" data-aos-delay="300">Commercial</h2>
         <img   data-aos="fade-up" data-aos-delay="00"src={Commercial} alt="commercial storage unit" id="commercial" className="storage-unit-commercial" />
         <div className="slide-info">
         <p>No security deposit required</p>
         </div>
         </div>
         <div  className="rv-div">
-        <h2 data-aos="fade-right" data-aos-delay="2000"> RV's</h2>
+        <h2 data-aos="fade-right" data-aos-delay="500"> RV's</h2>
         <img data-aos="fade-up" data-aos-delay="0"src={RV} alt="rv storage unit" id="rv" className="storage-unit-rv" />
         <div className="slide-info">
         <p>We are the competitive price leader in NW Arkansas</p>
         </div>
         </div>
         </div>
-        <h2 data-aos="fade-in" data-aos-delay="2200"> and more!</h2>
+        <h2 data-aos="fade-in" data-aos-delay="700"> and more!</h2>
         </div>
 
         </div>
