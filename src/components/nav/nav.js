@@ -41,7 +41,12 @@ class NavBar extends Component{
       <Link to='/'><FaHome className="nav-icons"/>HOME</Link>
       <Link to='/units'><FaArchive className="nav-icons"/>UNITS</Link>
       <Link to='/about'><FaUser className="nav-icons" />ABOUT</Link>
-      <Link to='/'><FaQuestion className="nav-icons"/>FAQ</Link>
+     
+         <a
+                      target="_blank"
+              rel="noopener noreferrer"
+              href="https://Bigoaksselfstorage.wordpress.com" 
+           className="navbarA"><FaQuestion className="nav-icons" />BLOG</a>
     </div>
   </div> 
             </div>

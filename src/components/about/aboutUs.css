@@ -64,6 +64,7 @@
 .storage-photo3{
     width: 95%;
     height: 30%;
+    min-height: 200px;
     max-height: 400px;
     margin-left: 15px;
     padding-right: 15px;
