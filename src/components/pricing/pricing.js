@@ -68,12 +68,12 @@ render () {
     }
     return (
         <div className="pricing-container">
+        {form}
         <div className="services">
         <h1>UNIT PRICING</h1>
         <div className="bar"></div>
         <p id="tag-alt" className="tag-alt">Premier self-storage units conveniently located in Northwest Arkansas</p>
         </div>
-        {form}
         <div className="price-card-div">
         <div  data-aos="flip-right"  className="price-card">
         <img src={ UnitSize3 } alt="Storage Unit Size" className="unit-size" />

@@ -17,7 +17,7 @@ property, we preserved these beautiful Oak trees, because of their captivating s
 they bring to the Big Oaks Self Storage name. Some of these trees have been standing strong for over
 100 years.</p>
 </div>
- <div className="about">
+ <div className="about1">
         <div data-aos="fade-up" className="third-text">
            <p>Prior to Big Oaks Self Storage, the property would host an annual craft fair know to the locals as
 Quail Oaks Craft Fair. The grounds also served as an RV Park or camp year round. People enjoyed the

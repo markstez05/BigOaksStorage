@@ -26,7 +26,11 @@ class NavBar extends Component{
             <Link to='/'><p className="navbarA">HOME</p></Link>
             <Link to='/units'><p className="navbarA">UNITS</p></Link>
           <Link to='/about'><p className="navbarA">ABOUT</p></Link>  
-           <p className="navbarA">FAQ</p>
+           <a
+                      target="_blank"
+              rel="noopener noreferrer"
+              href="https://Bigoaksselfstorage.wordpress.com" 
+           className="navbarA">BLOG</a>
             </div>
             <div className="dropdown">
     <button className="dropbtn">

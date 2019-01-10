@@ -23,7 +23,7 @@ render () {
         <FaMoneyBill className="card-icons" />
         <h3>BEST in Self-Storage</h3>
         <div className="card-list">
-            <li>Best Competitive Rates in NWA for All Size Units  </li>
+            <li>Best Competitive Rates in NWA for All Units</li>
             <p></p>
             <li>Larger Oversized Units with Insulated Roofs</li>
             <p></p>
@@ -59,7 +59,7 @@ render () {
             <p></p>
             <li>Gated with Surveillance Cameras</li>
             <p></p>
-            <li>Full Frontage Road Access with Wide Entry Gates</li>
+            <li>Full Frontage Access with Wide Entry Gates</li>
             <p></p>
             <li>Individual Access Codes</li>
             <p></p>

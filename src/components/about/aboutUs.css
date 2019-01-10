@@ -1,5 +1,5 @@
 .about-container{
-    margin-top: 70px;
+    margin-top: 0px;
     display: flex;
     min-height: 960px;
     width: 100%;
@@ -16,7 +16,14 @@
     align-items: center;
     flex-direction: column;
     width: 95%;
+    max-width: 1100px;
+}
+.about1{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
     max-width: 1300px;
+    width: 100%;
 }
 .new p{ 
     text-align: left;
@@ -25,42 +32,54 @@
     font-size: 1.3rem;
 }
 .storage-photo3{
-    width: 650px;
-    height: 400px;
+    width: 600px;
+    height: 300px;
     margin-left: 10px;
     padding-top: 0px;
-
 }
 .second-text{
     text-align: left;
     width: 100%;
     font-size: 1.2rem;
     padding-bottom: 10px;
-
-    margin-bottom: -50px;
+    margin-bottom: 20px;
 }
 .second-text p{
     margin-left: 15px;
 }
 .third-text{
-
     text-align: left;
-    /* height: 80%; */
-    padding: 15px;
-    margin-top: 5px;
+    padding: 0px;
+    margin-left: 10px;
+}
+.third-text p{
+    margin-top: -10px;
 }
 @media (max-width: 1150px){
 .storage-photo3{
-    width: 600px;
-    height: 300px;
-    margin-left: 10px;
-    align-self: flex-end;
+    width: 95%;
+    height: 30%;
+    max-height: 400px;
+    margin-left: 0px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+}
+.about1{
+    display: flex;
+    flex-direction: column-reverse;
 }
 }
 @media (max-width: 1020px){
 .new h1{
     display: flex;
     justify-content: center;
+}
+.second-text{
+    text-align: left;
+    width: 100%;
+    font-size: 1.2rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 }
 @media (max-width: 500px){
