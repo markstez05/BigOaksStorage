@@ -9,7 +9,7 @@ class AboutUs extends Component{
             <div className="new">
         <div className="second-text">
         <h1>OUR STORY</h1>
-        <div className="bar2"></div>
+        <div className="bar3"></div>
      <p data-aos="fade-left">Big Oaks Self-Storage is not only proud to be family & locally-owned and operated, but also we
 take pride in the history we bring along with the name “Big Oaks”. When you arrive on site, you can’t
 help but notice several very old oak trees that take residency on our property. When developing the
