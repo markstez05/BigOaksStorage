@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import "./nav.css";
-import { FaTimes, FaBars, FaArchive , FaHome, FaUser, FaQuestion } from "react-icons/fa";
+import { FaFileAlt ,FaTimes, FaBars, FaArchive , FaHome, FaUser, FaQuestion } from "react-icons/fa";
 import BigOaksTitleLogo from "../../components/images/BigOaksTitleLogo.png"
 class NavBar extends Component{
  
@@ -46,7 +46,7 @@ class NavBar extends Component{
                       target="_blank"
               rel="noopener noreferrer"
               href="https://Bigoaksselfstorage.wordpress.com" 
-           className="navbarA"><FaQuestion className="nav-icons" />BLOG</a>
+           className="navbarA"><FaFileAlt className="nav-icons" />BLOG</a>
     </div>
   </div> 
             </div>
