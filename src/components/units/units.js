@@ -20,8 +20,9 @@ class Units extends Component {
         picture: null,
     }
 }
-componentDidMount = () =>{
-}
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
 
   render() {
     let modal = null;

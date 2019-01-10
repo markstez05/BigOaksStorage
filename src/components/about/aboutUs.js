@@ -3,6 +3,9 @@ import "./aboutUs.css";
 import StorageContainer from "../images/oaks.jpg"
 
 class AboutUs extends Component{
+        componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render(){
         return(
             <div className="about-container">

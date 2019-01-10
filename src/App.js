@@ -17,6 +17,7 @@ class App extends Component {
     super(props);
   }
   componentDidMount(){
+        window.scrollTo(0, 0);
     AOS.init({
       duration : 1700
     })
